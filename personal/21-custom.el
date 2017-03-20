@@ -33,12 +33,16 @@
  '(helm-recentf-fuzzy-match t)
  '(helm-semantic-fuzzy-match t)
  '(line-spacing 0.2)
+ '(markdown-asymmetric-header t)
+ '(markdown-coding-system (quote utf-8))
+ '(markdown-command "pandoc -f markdown_github -t html --self-contained")
+ '(markdown-command-needs-filename t)
  '(menu-bar-mode nil)
  '(mouse-yank-at-point t)
  '(org-babel-load-languages (quote ((sh . t) (ledger . t) (emacs-lisp . t))))
  '(package-selected-packages
    (quote
-    (groovy-mode dockerfile-mode markdown-mode rust-mode use-package vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
+    (yaml-mode groovy-mode dockerfile-mode markdown-mode rust-mode use-package vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
  '(whitespace-style
    (quote
     (face trailing tabs spaces lines-tail empty indentation space-after-tab space-before-tab space-mark tab-mark))))
