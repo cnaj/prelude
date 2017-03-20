@@ -3,7 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:height 140 :family "Source Code Pro"))))
+ '(default ((t (:weight normal :height 100 :family "Source Code Pro"))))
  '(whitespace-empty ((t (:background "Red" :foreground "#dc322f")))))
 
 (custom-set-variables
@@ -32,6 +32,7 @@
  '(helm-imenu-fuzzy-match t)
  '(helm-recentf-fuzzy-match t)
  '(helm-semantic-fuzzy-match t)
+ '(initial-frame-alist (quote ((vertical-scroll-bars) (top . 1) (left . 1))))
  '(line-spacing 0.2)
  '(markdown-asymmetric-header t)
  '(markdown-coding-system (quote utf-8))
@@ -43,6 +44,7 @@
  '(package-selected-packages
    (quote
     (yaml-mode groovy-mode dockerfile-mode markdown-mode rust-mode use-package vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
+ '(visible-bell t)
  '(whitespace-style
    (quote
     (face trailing tabs spaces lines-tail empty indentation space-after-tab space-before-tab space-mark tab-mark))))
